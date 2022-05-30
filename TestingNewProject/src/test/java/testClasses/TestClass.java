@@ -46,17 +46,7 @@ public class TestClass {
 		Assert.fail();
 		
 	}
-
-	
-	@AfterMethod
-	public void afterMethod() {
-		System.out.println("afterMethod TestClass 1");
-	}
-	
-	@AfterClass
-	public void afterClass() {
-		System.out.println("afterClass TestClass 1");
-	}
+         System.out.println("Hello");
 
 //	@AfterTest
 //	public void afterTest() {
