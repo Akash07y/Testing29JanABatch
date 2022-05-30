@@ -42,20 +42,16 @@ public class TestClass {
 	
 	@Test 
 	public void testA() {
-		System.out.println("test A TestClass 1");
-		Assert.fail();
-		
 	}
-         System.out.println("Hello");
 
-//	@AfterTest
-//	public void afterTest() {
-//		System.out.println("After Test TestClass 1");
-//	}
-//
-//	@AfterSuite
-//	public void afterSuite() {
-//		System.out.println("After Suite TestClass 1");
-//	}
+	@AfterTest
+	public void afterTest() {
+		System.out.println("After Test TestClass 1");
+	}
+
+	@AfterSuite
+	public void afterSuite() {
+		System.out.println("After Suite TestClass 1");
+	}
 
 }
