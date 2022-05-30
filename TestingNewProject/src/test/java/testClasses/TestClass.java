@@ -42,11 +42,7 @@ public class TestClass {
 	
 	@Test 
 	public void testA() {
-		System.out.println("test A TestClass 1");
-		Assert.fail();
-		
-	}
-         System.out.println("Hello");
+.println("Hello");
 
 //	@AfterTest
 //	public void afterTest() {
