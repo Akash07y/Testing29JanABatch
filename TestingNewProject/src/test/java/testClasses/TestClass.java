@@ -58,14 +58,14 @@ public class TestClass {
 		System.out.println("afterClass TestClass 1");
 	}
 
-	@AfterTest
-	public void afterTest() {
-		System.out.println("After Test TestClass 1");
-	}
-
-	@AfterSuite
-	public void afterSuite() {
-		System.out.println("After Suite TestClass 1");
-	}
+//	@AfterTest
+//	public void afterTest() {
+//		System.out.println("After Test TestClass 1");
+//	}
+//
+//	@AfterSuite
+//	public void afterSuite() {
+//		System.out.println("After Suite TestClass 1");
+//	}
 
 }
